@@ -58,10 +58,10 @@ Throug Pipeline and Gridsearch, I tested four sets of models with unique paramet
  
 ## Model Evaluation
 Below is a visualization of my confusion matrix for model 3, which reveals the values of True Positives, True Negatives, False Positives (Type I error), and False Negatives (Type II errors). I optimized my model to achieve the highest Accuracy score, and also measure the Positive Predictive Rate, True Positive Rate, True Negative Rate, and Misclassification Rate. 
-![Confusion_Matrix](https://raw.git.generalassemb.ly/jasminevasandani/project_3/master/images/confusion_matrix.png?token=AABDVg58Fjtzauy7XuIoupd7VvAM2muYks5cs8ObwA%3D%3D) 
+![Confusion_Matrix](https://raw.githubusercontent.com/jasminevasandani/NLP_Classification_Model_FakeNews/master/images/confusion_matrix.png) 
 
 Additionally, I also used model 1 to help me interpret estimate values for my coefficients. I determined which words had the highest positive impact on determining whether a post would be classified as coming from r/TheOnion or r/nottheonion. I calculated the exponential of the coefficients to determine the likelihood of how a post gets classified. 
-![Coefficients](https://raw.git.generalassemb.ly/jasminevasandani/project_3/master/images/coefficients.png?token=AABDVgQsP_ghOmYGNBgoGgjPkv10zMmOks5cs8XhwA%3D%3D)
+![Coefficients](https://raw.githubusercontent.com/jasminevasandani/NLP_Classification_Model_FakeNews/master/images/coefficients.png)
 
 ## Conclusions and Next Steps
 While I did achieve a high accuracy of around 90%, it's still not perfect. If WhatsApp were to implement this model when deleting 2 million accounts a month, they would be misclassifying about 10% - 11% of authentic accounts as fake ones. When implementing machine learning models to block, delete, or censor social media and messaging accounts, how many are misclassified? In my next iteration of this project, I would do more research on whether and how platforms like WhatsApp create fake news filters, and what their accuracy and misclassification scores are. Additionally, since news gets spread not only as text but also as images and videos, my next step would also be to research how to implement a machine learning model on multi-media objects. 
